@@ -12,6 +12,8 @@ The puzzle is challenging!  Rather than solving it manually, by trial and error,
 fun to write a program to solve it (plus, gives me some coding practice).  So, the rest of this description is
 a description of the program and my experiences with running it.
 
+:
+
 ## *STOP HERE, IF YOU WANT TO SOLVE THE PUZZLE YOURSELF!*
 
 :
@@ -34,12 +36,12 @@ There are a lot of possible configurations to search!
 * There are 12 disks, to be placed in order.
 * Each disk has 2 sides and 6 rotation angles, so there are 12 possible configurations for each disk.
 * For the first layer, there are 12 choices for a disk to use, and for each of those, 
-12 possible configurations, so 12*12 possibilities.
+12 possible configurations, so 12x12 possibilities.
 * For the second layer, there are 11 choices for a disk, and for each of those, 12 possible 
-configurations, so 11*12 possibilities.
+configurations, so 11x12 possibilities.
 
 So, the total number of possibilites for the whole stack is
-(12*12)(11*12)(10*12) ... (2*12)(1*12) = (12!)(12^12) = 4 x 10^21
+(12x12)(11x12)(10x12) ... (2x12)(1x12) = (12!)(12^12) = 4 x 10^21
 
 This is a lot of possibilities!  It might take forever to run!
 
